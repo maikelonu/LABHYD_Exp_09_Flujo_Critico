@@ -27,11 +27,10 @@
 rm(list = ls())
 
 # Working directory is selected
-# setwd("/media/maikel/Trabajo/R_ITC/R_LABHYD/EXP_CRITICO")
-setwd("C:/DATOS/R_ITC/R_LABHYD/EXP_CRITICO")
+ setwd("/media/maikel/Trabajo/R_ITC/R_LABHYD/EXP_CRITICO")
 
 # CRAN libraries are loaded
-require(Agreement)
+# require(Agreement)
 require(DescTools)
 require(effects)
 require(ggplot2)
