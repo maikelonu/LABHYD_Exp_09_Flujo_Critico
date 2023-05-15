@@ -27,7 +27,7 @@
 rm(list = ls())
 
 # Working directory is selected
- setwd("/media/maikel/Trabajo/R_ITC/R_LABHYD/EXP_CRITICO")
+setwd("/media/maikel/Trabajo/R_ITC/R_LABHYD/EXP_CRITICO")
 
 # CRAN libraries are loaded
 # require(Agreement)
@@ -61,12 +61,12 @@ base_m <- 0.086 # hydraulic flume base (m)
 
      # Triangular Weir dimensions and vectors are defined
 block_ID <- c("p1","p2","p3","p4","p5","p6","p7","p8","p9") # control-points IDs
-block_X <- c(15.050,15.505,15.550,15.602,15.670,15.740,15.810,15.870,16.120) # control-points X distance (m)
-block_DZ <- c(0.45, 0.45,0.45,0.45,0.50,0.55,0.55,0.55,0.45) # hydraulic flume DeltaZ to bottom (cm)
-block_ELEV <- c(0.0,0.0,2.7,6.2,4.6,3.0,1.5,0.0,0.0) # relative elevation of the Triangular Weir (cm)
+block_X <- c(15.050, 15.505, 15.550, 15.602, 15.670, 15.740, 15.810, 15.870, 16.120) # control-points X distance (m)
+block_DZ <- c(0.45, 0.45, 0.45, 0.45, 0.50, 0.55, 0.55, 0.55, 0.45) # hydraulic flume DeltaZ to bottom (cm)
+block_ELEV <- c(0.0, 0.0, 2.7, 6.2, 4.6, 3.0, 1.5, 0.0, 0.0) # relative elevation of the Triangular Weir (cm)
 
 # Experimental Data !!!!!!!!!!!!!!
-block_Y <- c(10.40,10.35,10.25,9.65,7.10,5.10,3.50,2.15,1.90) # experimental water depth (cm)
+block_Y <- c(10.40, 10.35, 10.25, 9.65, 7.10, 5.10, 3.50, 2.15, 1.90) # experimental water depth (cm)
 
 # Vectors are transformed
     block_X <- (block_X) - 15.05 # normalized to start in 0 (m)
